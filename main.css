@@ -1,0 +1,23 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.container{
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.daynone {
+    display: none;
+}
+.day{
+    width: 5vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .2vw solid blue;
+    background-color: bisque;
+}
